@@ -9,7 +9,7 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=prabod-sandaruwan&label=Profile%20views&color=0e75b6&style=flat" alt="prabod-sandaruwan" /> </p>
 
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <br>
 
@@ -36,7 +36,7 @@
 </p>
 </br>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <br>
 
@@ -70,6 +70,10 @@
   <a href="https://nodejs.org" target="_blank" rel="noreferrer">
     <img src="https://github.com/Scar1109/skill-icons/blob/main/icons/NodeJS-Dark.svg" alt="nodejs" width="60" height="60"/>
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <br>
+  <br>
+  
   <a href="https://postman.com" target="_blank" rel="noreferrer">
     <img src="https://github.com/Scar1109/skill-icons/blob/main/icons/Postman.svg" alt="postman" width="60" height="60"/>
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
