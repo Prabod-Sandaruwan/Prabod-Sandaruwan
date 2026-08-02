@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="165" viewBox="0 0 495 165" role="img" aria-labelledby="title desc">
+  <title id="title">Prabod's GitHub stats</title>
+  <desc id="desc">Placeholder GitHub stats card to avoid broken image rendering.</desc>
+  <rect width="495" height="165" rx="12" fill="#0D1117"/>
+  <text x="24" y="40" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="22" font-weight="700">Prabod's GitHub stats</text>
+  <text x="24" y="68" fill="#8B949E" font-family="Arial, sans-serif" font-size="12">Update workflow will replace this card with live stats.</text>
+  <g fill="#00F5D4" font-family="Arial, sans-serif" font-size="14">
+    <text x="24" y="110">Repos: sync from GitHub Actions</text>
+    <text x="24" y="132">Commits: sync from GitHub Actions</text>
+    <text x="24" y="154">PRs: sync from GitHub Actions</text>
+  </g>
+</svg>
