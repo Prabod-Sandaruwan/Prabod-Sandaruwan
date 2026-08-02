@@ -24,8 +24,8 @@
 ## GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prabod-Sandaruwan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4&text_color=E6EDF3" alt="Prabod Sandaruwan's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabod-Sandaruwan&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F5D4&text_color=E6EDF3" alt="Most used languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prabod-Sandaruwan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4&text_color=E6EDF3&cache_seconds=86400" alt="Prabod Sandaruwan's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabod-Sandaruwan&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F5D4&text_color=E6EDF3&cache_seconds=86400" alt="Most used languages" />
 </div>
 
 <br>
