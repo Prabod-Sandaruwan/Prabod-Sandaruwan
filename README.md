@@ -51,3 +51,7 @@
 <div align="center">
   <img src="https://contrib.rocks/image?repo=Prabod-Sandaruwan/Prabod-Sandaruwan" alt="Contribution graph" />
 </div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shahanvimukthi/shahanvimukthi/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
+</div>
