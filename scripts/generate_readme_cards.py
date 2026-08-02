@@ -52,7 +52,16 @@ def main():
             repositories {
               totalCount
             }
+            gists {
+              totalCount
+            }
             followers {
+              totalCount
+            }
+            following {
+              totalCount
+            }
+            starredRepositories {
               totalCount
             }
             contributionsCollection {
@@ -91,6 +100,9 @@ def main():
     <text x="260" y="100">Issues: {q['contributionsCollection']['totalIssueContributions']}</text>
     <text x="260" y="122">Reviews: {q['contributionsCollection']['totalPullRequestReviewContributions']}</text>
     <text x="260" y="144">Followers: {q['followers']['totalCount']}</text>
+    <text x="370" y="100">Following: {q['following']['totalCount']}</text>
+    <text x="370" y="122">Stars: {q['starredRepositories']['totalCount']}</text>
+    <text x="370" y="144">Gists: {q['gists']['totalCount']}</text>
   </g>
 </svg>"""
 
@@ -100,9 +112,15 @@ def main():
   <rect width="495" height="165" rx="12" fill="#0D1117"/>
   <text x="24" y="38" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="22" font-weight="700">{display_name}'s contribution streak</text>
   <text x="24" y="62" fill="#8B949E" font-family="Arial, sans-serif" font-size="12">{login}</text>
-  <rect x="24" y="88" width="447" height="54" rx="10" fill="#161B22"/>
-  <text x="40" y="112" fill="#00F5D4" font-family="Arial, sans-serif" font-size="15">Total contributions this year</text>
-  <text x="40" y="134" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="26" font-weight="700">{q['contributionsCollection']['contributionCalendar']['totalContributions']}</text>
+  <rect x="24" y="88" width="135" height="54" rx="10" fill="#161B22"/>
+  <rect x="180" y="88" width="135" height="54" rx="10" fill="#161B22"/>
+  <rect x="336" y="88" width="135" height="54" rx="10" fill="#161B22"/>
+  <text x="40" y="110" fill="#8B949E" font-family="Arial, sans-serif" font-size="11">This year</text>
+  <text x="40" y="132" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="24" font-weight="700">{q['contributionsCollection']['contributionCalendar']['totalContributions']}</text>
+  <text x="196" y="110" fill="#8B949E" font-family="Arial, sans-serif" font-size="11">Commits</text>
+  <text x="196" y="132" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="24" font-weight="700">{q['contributionsCollection']['totalCommitContributions']}</text>
+  <text x="352" y="110" fill="#8B949E" font-family="Arial, sans-serif" font-size="11">PRs</text>
+  <text x="352" y="132" fill="#E6EDF3" font-family="Arial, sans-serif" font-size="24" font-weight="700">{q['contributionsCollection']['totalPullRequestContributions']}</text>
 </svg>"""
 
     (profile / "stats.svg").write_text(stats_svg, encoding="utf-8")
