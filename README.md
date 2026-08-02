@@ -24,8 +24,8 @@
 ## GitHub Analytics
 
 <div align="center">
-  <img height="165" src="./profile/stats.svg" alt="Prabod's GitHub stats" />
-  <img height="165" src="./profile/streak.svg" alt="Prabod's contribution streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prabod-Sandaruwan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4&text_color=E6EDF3&cache_seconds=86400" alt="Prabod's GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=Prabod-Sandaruwan&hide_border=true&background=0D1117&stroke=00F5D4&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="Prabod's contribution streak" />
 </div>
 
 <br>

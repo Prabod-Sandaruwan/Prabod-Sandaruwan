@@ -1,0 +1,42 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare card folder
+        run: mkdir -p profile
+
+      - name: Download stats card
+        run: |
+          curl -L --fail --retry 3 --retry-delay 5 \
+            "https://github-readme-stats.vercel.app/api?username=Prabod-Sandaruwan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4&text_color=E6EDF3&cache_seconds=86400" \
+            -o profile/stats.svg
+
+      - name: Download streak card
+        run: |
+          curl -L --fail --retry 3 --retry-delay 5 \
+            "https://streak-stats.demolab.com?user=Prabod-Sandaruwan&hide_border=true&background=0D1117&stroke=00F5D4&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" \
+            -o profile/streak.svg
+
+      - name: Commit cards
+        run: |
+          if git diff --quiet -- profile; then
+            exit 0
+          fi
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards"
+          git push
