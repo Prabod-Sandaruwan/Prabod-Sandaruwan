@@ -25,7 +25,7 @@
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=prabod-sandaruwan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4&text_color=E6EDF3&ring_color=00F5D4" alt="Prabod's GitHub stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=prabod-sandaruwan&hide_border=true&background=0D1117&stroke=00F5D4&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="Prabod's contribution streak" />
+  <img height="165" src="https://streak-stats.demolab.com?user=prabod-sandaruwan&hide_border=true&background=0D1117&stroke=00F5D4&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="Prabod's contribution streak" />
 </div>
 
 <br>
