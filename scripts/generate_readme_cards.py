@@ -52,9 +52,6 @@ def main():
             repositories {
               totalCount
             }
-            gists {
-              totalCount
-            }
             followers {
               totalCount
             }
@@ -102,7 +99,7 @@ def main():
     <text x="260" y="144">Followers: {q['followers']['totalCount']}</text>
     <text x="370" y="100">Following: {q['following']['totalCount']}</text>
     <text x="370" y="122">Stars: {q['starredRepositories']['totalCount']}</text>
-    <text x="370" y="144">Gists: {q['gists']['totalCount']}</text>
+    <text x="370" y="144">Gists: {u.get('public_gists', 0)}</text>
   </g>
 </svg>"""
 
